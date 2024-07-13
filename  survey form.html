@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+
+</head>
+<body>
+<div class="container">
+    <div class="headings">
+        <h3>CapacityBay Survey Form</h3>
+        <p>Thank you for taking the time  to help us improve the platform </p>
+    </div>
+    <div class="form">
+        <form action="">
+            <label for="name">Name</label><br>
+            <input type="text" id="name" placeholder="Enter your name" required><br>
+            <label for="email"> Email</label><br>
+            <input type="email" id="email" placeholder="Enter your email" required><br>
+            <label for="age">Age (optional)</label><br>
+            <input type="number" placeholder="age" ><br>
+            <label for="selection">Which option best describe your current role ? </label><br>
+            <select name="select roles" id="selection">
+        <option value="roles" >select current roles</option>
+        <option value="Student">Student</option>
+        <option value="full-time">Full-time jobs</option>
+        <option value="full-time learner">Full-time learner</option>
+        <option value="not saying">Prefer not to say</option>
+        <option value="other">Other</option>
+            </select><br>
+            <label for="pick">Would you recommend CapacityBay to a friend ?</label><br>
+            <input type="radio" value="Definetely" name="pick" >Definetely<br>
+            <input type="radio" value="Maybe" name="pick">Maybe<br>
+            <input type="radio" value="Not sure" name="pick">Not sure<br>
+        </form>
+    </div>
+</div>
+</body>
+</html>
