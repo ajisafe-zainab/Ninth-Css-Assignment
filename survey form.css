@@ -5,7 +5,10 @@
 }
 .container{
     background-color:orangered;
-    /* background-image: url(../../Downloads/Beautiful\ Sea\ Sunset\ Background\ -\ High-quality\ Free\ Backgrounds.jpeg); */
+    background-image: url(./istockphoto-1903424167-1024x1024.jpg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-attachment: fixed;
     display: flex;
     flex-direction: column;
     justify-content: center;
